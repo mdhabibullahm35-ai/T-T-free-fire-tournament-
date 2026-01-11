@@ -1,98 +1,64 @@
 <!DOCTYPE html>
-<html lang="bn">
+<html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Free Fire Tournament</title>
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      background: #f2f2f2;
-      text-align: center;
-      margin: 0;
-      padding: 0;
-    }
-    header {
-      background: #222;
-      color: #fff;
-      padding: 15px;
-    }
-    form, .box {
-      background: #fff;
-      margin: 15px auto;
-      padding: 20px;
-      width: 90%;
-      max-width: 400px;
-      border-radius: 10px;
-      box-shadow: 0 0 10px rgba(0,0,0,0.1);
-    }
-    input, select, button {
-      width: 100%;
-      padding: 10px;
-      margin: 8px 0;
-      border: 1px solid #ccc;
-      border-radius: 5px;
-    }
-    button {
-      background: #28a745;
-      color: #fff;
-      font-size: 16px;
-      cursor: pointer;
-    }
-    button:hover {
-      background: #218838;
-    }
-  </style>
+    <meta charset="UTF-8">
+    <title>Free Fire Tournament</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-<header>
-  <h1>🔥 Free Fire Tournament</h1>
-</header>
+    <!-- Header -->
+    <header class="header">
+        <h1 class="logo">FF Tournament</h1>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="#">Matches</a>
+            <a href="#">Rules</a>
+        </nav>
+    </header>
 
-<!-- ১. সাইন আপ ফর্ম -->
-<div class="box">
-  <h2>সাইন আপ</h2>
-  <form>
-    <input type="text" placeholder="নাম লিখুন" required>
-    <input type="email" placeholder="ইমেইল লিখুন" required>
-    <input type="text" placeholder="মোবাইল নাম্বার" required>
-    <input type="text" placeholder="Free Fire UID" required>
-    <button type="submit">সাইন আপ</button>
-  </form>
-</div>
+    <!-- Hero Section -->
+    <section class="hero">
+        <h2>Free Fire Custom Match Platform</h2>
+        <p>Play free matches and fair entry matches with fixed prizes.</p>
+        <div class="buttons">
+            <a href="#" class="btn">Free Matches</a>
+            <a href="#" class="btn secondary">Rules & Disclaimer</a>
+        </div>
+    </section>
 
-<!-- ২. টুর্নামেন্ট লিস্ট -->
-<div class="box">
-  <h2>টুর্নামেন্ট লিস্ট</h2>
-  <p>🎯 টুর্নামেন্ট ১: 12 Oct 2025 (8PM)</p>
-  <p>🎯 টুর্নামেন্ট ২: 14 Oct 2025 (9PM)</p>
-</div>
+    <!-- Features -->
+    <section class="features">
+        <div class="card">
+            <h3>Free Matches</h3>
+            <p>Join unlimited free custom matches.</p>
+        </div>
 
-<!-- ৩. রেজিস্ট্রেশন ফর্ম -->
-<div class="box">
-  <h2>রেজিস্ট্রেশন</h2>
-  <form>
-    <input type="text" placeholder="মোবাইল নাম্বার (যেমন: 01XXXXXXXXX)" required>
-    <input type="text" placeholder="Transaction ID লিখুন" required>
-    <button type="submit">রেজিস্টার</button>
-  </form>
-</div>
+        <div class="card">
+            <h3>Fixed Prize</h3>
+            <p>No double money. Prize is fixed and transparent.</p>
+        </div>
 
-<!-- ৪. স্ট্যাটাস চেক -->
-<div class="box">
-  <h2>রেজিস্ট্রেশন স্ট্যাটাস</h2>
-  <select>
-    <option>Pending</option>
-    <option>Confirmed</option>
-  </select>
-</div>
+        <div class="card">
+            <h3>Admin Controlled</h3>
+            <p>All matches are created and managed by admins.</p>
+        </div>
+    </section>
 
-<!-- ৫. রেজাল্ট চেক -->
-<div class="box">
-  <h2>রেজাল্ট</h2>
-  <p>🥇 বিজয়ী: UID - 123456789 (Player Name)</p>
-</div>
+    <!-- Disclaimer -->
+    <section class="disclaimer">
+        <p>
+            ⚠️ This is a skill-based gaming platform. No betting or gambling involved.
+        </p>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>© 2026 FF Tournament | Made by Habibullah</p>
+    </footer>
 
 </body>
 </html>
